@@ -1,0 +1,1 @@
+# jquery_right_click_disabled
