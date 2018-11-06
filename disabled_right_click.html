@@ -1,0 +1,17 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function() {
+
+    $(document)[0].oncontextmenu = function() { return false; }
+
+    $(document).mousedown(function(e) {
+        if( e.button == 2 || e.button == 0 || e.button == 1  ) {
+            alert('Sorry, this functionality is disabled!');
+            return false;
+        } else {
+            return true;
+        }
+    });
+});
+</script>
